@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testExecution.TestScriptExecution">
+				<methods>
+					<include name="Accounts_promissed_summary" />
+					<include name="Accounts_CurrentDue_summary" />
+					<include name="Accounts_TotalDue_summar" />
+					<include name="Accounts_disputed_summary" />
+					<include name="Accounts_TotalDue_summary_for_single_customer" />
+					<include name="Accounts_CurrentDue_summary_for_single_customer" />
+					<include name="Accounts_PastDue_summary_for_single_customer" />
+					<include name="Accounts_promissed_summary_for_single_customer" />
+					<include name="Accounts_Disputed_summary_for_single_customer" />
+					<include name="Accounts_TotalDue_summary_for_single_company" />
+					<include name="Accounts_CurrentDue_summary_for_single_company" />
+					<include name="Accounts_PastDue_summary_for_single_company" />
+					<include name="Accounts_promissed_summary_for_single_company" />
+					<include name="Accounts_Disputed_summary_for_single_company" />
+					<include name="accounts_Promised_summary_after_creation" />
+					<include name="accounts_Promised_summary_after_ptp_update" />
+					<include name="Accounts_promissed_summay_PTP_creation_in_tx" />
+					<include name="accounts.Accounts_promissed_summary_for_single_customer" />
+					<include name="Accounts_promissed_summay_PTP_update_in_tx" />
+					<include name="Transactions_promissed_summary" />
+					<include name="Transactions_CurrentDue_summary" />
+					<include name="Transactions_PastDue_summary" />
+					<include name="Transactions_disputed_summary" />
+					<include name="Transactions_CurrentDue_summary_for_single_customer" />
+					<include name="Transactions_PastDue_summary_for_single_customer" />
+					<include name="Transactions_promissed_summary_for_single_customer" />
+					<include name="Transactions_Disputed_summary_for_single_customer" />
+					<include name="Transactions_CurrentDue_summary_for_single_company" />
+					<include name="Transactions_PastDue_summary_for_single_company" />
+					<include name="Transactions_promissed_summary_for_single_company" />
+					<include name="Transactions_Disputed_summary_for_single_company" />
+					<include name="Transactions_promissed_summay_PTP_creation_in_tx" />
+					<include name="Transaction_Promised_summary_after_creation_in_ac" />
+					<include name="Transactions_Promised_summary_after_ptp_update_in_ac" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

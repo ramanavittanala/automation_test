@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testExecution.TestScriptExecution">
+				<methods>
+					<include name="Collections_TaskList_group_open" />
+					<include name="Collections_TaskList_CollectionNotes_open" />
+					<include name="Collections_TaskList_PTP_open" />
+					<include name="Collections_TaskList_invoiceNotes_open" />
+					<include name="Collections_TaskList_Advance_open" />
+					<include name="Collections_TaskList_DisputeAssignment_open" />
+					<include name="Collections_TaskList_DisputeReminders_open" />
+					<include name="Collections_TaskList_Letter_open" />
+					<include name="Collections_TaskList_OverDue_open" />
+					<include name="Collections_Consolidated_TaskList" />
+					<include name="Collections_Consolidated_TaskList_records_count" />
+			
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
